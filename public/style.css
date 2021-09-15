@@ -1,0 +1,122 @@
+body{
+    width: max-content;
+}
+
+#no{
+    margin: 0 8px;
+}
+
+#btnView, #btnSave{
+    padding: 2px 20px;
+    border: 1px solid blue;
+    border-radius: 2px;
+}
+
+.detail{
+    border: 1.5px solid gainsboro;
+    border-radius: 4px;
+    padding: 2vh 2vw 4vh 1vw;
+    width: max-content;
+}
+
+.detail .invoiceDetail{
+    position: relative;
+    top: -3.5vh;
+    background-color: white;
+    padding: 0 2px;
+    width: max-content;
+    color: blue;
+    font-weight: bold;
+}
+
+.form form{
+    display: flex;
+}
+
+.left{
+    width: 35vw;
+}
+
+.left div{
+    display: flex;
+}
+
+.right div{
+    display: flex;
+}
+
+label{
+    font-weight: bold;
+}
+
+.left div label{
+    width: 10vw;
+}
+
+.left div select{
+    min-width: 14vw;
+}
+
+select, input, textarea{
+    border: 1px solid blue;
+    border-radius: 2px;
+}
+
+.right div label{
+    width: 10vw;
+}
+
+.right div select{
+    min-width: 14vw;
+}
+
+.table table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-weight: 100;
+    text-align: end;
+}
+
+.table table #item, .items{
+    width: 22vw;
+    text-align: start;
+}
+
+.table table #weight, #qty{
+    width: 10vw;
+}
+
+.table table #price, #total{
+    width: 12vw;
+}
+
+.summary{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.summary span{
+    font-weight: bold;
+}
+
+.summary div{
+    display: flex;
+    padding: 2px;
+}
+
+.label{
+    width: 15vw;
+}
+
+.num{
+    width: 5vw;
+}
+
+.num span{
+    text-align: end;
+}
+
+.total{
+    border-top: 1px solid black;
+}
